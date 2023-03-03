@@ -16,7 +16,7 @@ var game = {
         [3,4,5],
         [6,7,8],
         [0,4,8],
-        [2,4,7]
+        [2,4,6]
     ],
     
     /**
@@ -96,11 +96,11 @@ var game = {
         
         // Buscar Ganador En X 
         if(this.validate_winner(shape_x))
-            console.log("Ganan las X");
+            alert("Ganan las X");
 
         // Buscar Ganador En O
         if(this.validate_winner(shape_o))
-            console.log("Ganan las O");
+            alert("Ganan las O");
     }, 
 
     //----------------------------------------------------------------------
