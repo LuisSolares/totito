@@ -1,0 +1,4 @@
+*{margin:0px;padding:0px;font-family: sans-serif;}
+body{display: flex;justify-content: center;align-items: center;}
+#container{width: 800px;display: block;overflow: hidden;margin: auto;}
+#container .item{border: 1px solid #ccc;width: 33%;height: 200px;float: left;    display: flex;justify-content: center;align-items: center;font-size: 50px;}
